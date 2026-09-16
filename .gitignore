@@ -1,0 +1,24 @@
+﻿# 抓包存档（含真实凭证与报文）
+*.saz
+captures/
+raw/
+
+# 解包产物（含目标系统的完整代码，版权与信息双重风险）
+unpacked/
+app-service.js
+*.wxapkg
+
+# 运行时配置与状态（可能含真实凭证）
+*.config.json
+!*.config.example.json
+*.state.json
+
+# 日志
+logs/
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
